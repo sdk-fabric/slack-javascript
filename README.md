@@ -1,2 +1,16 @@
+
 # slack-javascript
-Slack JavaScript SDK managed by SDK Fabric
+
+This [SDK](https://github.com/sdk-fabric/slack-javascript) is managed by the [SDK Fabric](https://sdk-fabric.org/) project, a global infrastructure to
+automatically generate SDKs for every API.
+
+You can find more information about this SDK at [TypeHub](https://typehub.cloud/):
+https://app.typehub.cloud/d/sdkfabric/slack
+
+## Usage
+
+```typescript
+const client = Client::build('[access_token]');
+
+// No sdkgen.lock found to generate usage examples.
+```

@@ -5,7 +5,7 @@ This [SDK](https://github.com/sdk-fabric/slack-javascript) is managed by the [SD
 automatically generate SDKs for every API.
 
 You can find more information about this SDK at [TypeHub](https://typehub.cloud/):
-https://app.typehub.cloud/d/sdkfabric/slack
+https://app.typehub.cloud/d/sdkfabric/twilio
 
 ## Usage
 

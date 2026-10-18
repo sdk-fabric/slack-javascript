@@ -12,5 +12,21 @@ https://app.typehub.cloud/d/sdkfabric/slack
 ```typescript
 const client = Client::build('[access_token]');
 
-// No sdkgen.lock found to generate usage examples.
+// Deletes a message from a channel.
+const response = await client.chat().delete(new Delete_Message_Request());
+
+// Retrieves a permalink URL for a specific existing message.
+const response = await client.chat().getPermalink("channel", "message_ts");
+
+// Sends an ephemeral message to a user in a channel.
+const response = await client.chat().postEphemeral(new Post_Ephemeral_Request());
+
+// Sends a message to a channel.
+const response = await client.chat().postMessage(new Post_Message_Request());
+
+// Schedules a message to be sent to a channel at a future time.
+const response = await client.chat().scheduleMessage(new Schedule_Message_Request());
+
+// Updates a message in a channel.
+const response = await client.chat().update(new Update_Message_Request());
 ```
